@@ -1,0 +1,18 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3.4.8",
+    "jade": "*",
+    "string": "~1.8.0",
+    "lodash": "~2.4.1",
+    "feedparser": "~0.16.6",
+    "request": "~2.33.0",
+    "ejs": "~0.8.5",
+    "ejs-locals": "~1.0.2"
+  }
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<!--
+
+	Parallelism 1.1 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
+-->
+<html>
+	<head>
+		<title><%= profile.title %></title>
+		<meta name="viewport" content="width=1120,user-scalable=no" />
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400" rel="stylesheet" type="text/css" />
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script>-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.poptrox.min.js"></script>
+		<script src="js/config.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/oboe.min.js"></script>
+		<script src="js/artwork.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+			<link rel="stylesheet" href="css/style-noscript.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
+	</head>
+	<body data-thumbheight="" data-overlayColor="">
+
+		<div id="wrapper">
+
+			<div id="main">
+				<div id="reel">	
+
+					<!-- Header Item -->
+					
+						<div id="header" class="item" data-width="400">
+							<h1><%= profile.name %></h1>
+							<p><%- profile.tagline %></p>
+						</div>
+					
+						<!-- Thumb Items -->
+						<%- body %>
+
+				</div>
+			</div>
+		
+			<div id="footer">
+				<div class="left">
+					<p><%- profile.footer %></p>
+				</div>
+				<div class="right">
+					<ul class="contact">
+						<li><a href="#" class="fa fa-twitter solo"><span>Twitter</span></a></li>
+						<li><a href="#" class="fa fa-facebook solo"><span>Facebook</span></a></li>
+						<li><a href="#" class="fa fa-google-plus solo"><span>Google+</span></a></li>
+						<li><a href="#" class="fa fa-dribbble solo"><span>Dribbble</span></a></li>
+						<li><a href="#" class="fa fa-pinterest solo"><span>Pinterest</span></a></li>
+						<li><a href="#" class="fa fa-envelope solo"><span>Email</span></a></li>
+					</ul>
+					<div id="copyright">
+						Developed by: <a href="http://github.com/emilkje">emilkje</a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+	</body>
+</html>

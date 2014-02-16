@@ -1,0 +1,3 @@
+$.get('/art', function(data){
+	
+});
