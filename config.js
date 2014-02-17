@@ -1,6 +1,6 @@
 var exports = module.exports = {
 
-	title: "Simen Kjelsruids DeviantArt Feed",
+	title: "Simen Kjelsruds DeviantArt Feed",
 	username: "kellebass",
 	name: "Simen Kjelsrud",
 	tagline: "In this family, <br />everyone is photogenic.",
