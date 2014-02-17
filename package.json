@@ -7,7 +7,6 @@
   },
   "dependencies": {
     "express": "3.4.8",
-    "jade": "*",
     "string": "~1.8.0",
     "lodash": "~2.4.1",
     "feedparser": "~0.16.6",
